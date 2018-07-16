@@ -1,0 +1,14 @@
+<html>
+<head>
+</head>
+<body>
+<p>
+This site serves as a demonstration for keyboard scrolling with static headers, to demonstrate that Firefox and Chrome handle it differently and to provide a way to test if the browser you are using supports the `scroll-padding` property. I did these tests with Firefox 61 and Chrome 67 (the latter with the Experimental Web Features flag enabled.)
+</p>
+<p>
+To perform the first test, open <a href="https://cruxicheiros.github.io/scrollamountdemo/noscrollamount.html">this page</a> in both Firefox and Chrome and use the space bar or page down button to scroll. Pay attention to the line number at the bottom of the screen before you scroll: the amount you scroll in Chrome and Firefox will be different. If the effect is not visible, repeat the test by returning to the top of the page, resizing the browser window to a smaller height, and scrolling with the space or page down button.
+</p>
+<p>
+The <a href="https://cruxicheiros.github.io/scrollamountdemo/scrollpadding.html">second page</a>'s `body` has a `scroll-padding` attribute set to the same size as the header and in theory should scroll the correct amount if the browser you are using supports the latest specification of CSS Scroll Snap.
+</body>
+</html>
